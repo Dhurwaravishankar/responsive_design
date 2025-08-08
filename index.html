@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Argentum — Premium Responsive (HTML & CSS)</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">▣</span>
+        <span class="brand-text">Argentum</span>
+      </a>
+
+      <!-- checkbox hack for mobile nav (pure CSS) -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle-checkbox" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle" aria-hidden="true" title="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </label>
+
+      <nav id="nav" class="nav" role="navigation" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn-primary" href="#contact">Get Quote</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Intro">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Design & build digital products that feel premium.</h1>
+          <p>Beautiful, fast and accessible websites — strategy to launch. We partner with teams who want high-quality design and performance.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Start a Project</a>
+            <a class="btn btn-ghost" href="#work">See Work</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-hidden="true">
+          <div class="device">
+            <img src="https://cdn.dribbble.com/userupload/3697068/file/original-d2c6af7cc061f8134666a2adeab4cbe4.png?resize=1504x1128&vertical=center" alt="project preview">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title">What we do</h2>
+        <p class="section-sub">Strategy • UI/UX • Frontend Engineering • Performance</p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="card-icon">🧭</div>
+            <h3>Product Strategy</h3>
+            <p>Workshops, user research and roadmap planning that align vision with measurable outcomes.</p>
+            <a class="link" href="#contact">Learn more →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🎨</div>
+            <h3>Design & Prototyping</h3>
+            <p>Design systems and interactive prototypes that speed development and reduce rework.</p>
+            <a class="link" href="#contact">Learn more →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">⚡</div>
+            <h3>Frontend Engineering</h3>
+            <p>Modern, accessible frontends — optimized for speed, SEO, and maintainability.</p>
+            <a class="link" href="#contact">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section section-alt" id="work">
+      <div class="container">
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-sub">A few recent projects that showcase visual and technical craft.</p>
+
+        <div class="grid grid-3">
+          <figure class="portfolio">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&crop=entropy" alt="Portfolio 1">
+            <figcaption>
+              <h4>Fintech dashboard</h4>
+              <p>Design system & rapid frontend build for analytics product.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio">
+            <img src="https://images.unsplash.com/photo-1526244434298-88fcbcb066b5?q=80&w=1200&auto=format&fit=crop&crop=entropy" alt="Portfolio 2">
+            <figcaption>
+              <h4>Edu platform</h4>
+              <p>Accessible learning experience for hundreds of thousands of users.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio">
+            <img src="https://cdn.dribbble.com/userupload/11475598/file/original-582dbbe7508680340719d11307a1dbf4.png?resize=1504x846&vertical=center" alt="Portfolio 3">
+            <figcaption>
+              <h4>Brand refresh</h4>
+              <p>Identity, website and marketing pages for a SaaS startup.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2 class="section-title">What clients say</h2>
+
+        <div class="grid grid-2">
+          <blockquote class="testi">
+            <p>“Argentum redesigned our product in 6 weeks. UI is intuitive and load times dropped significantly.”</p>
+            <footer>— Priya S., Product Lead</footer>
+          </blockquote>
+
+          <blockquote class="testi">
+            <p>“They are thoughtful, fast, and deliver scalable systems. Highly recommended.”</p>
+            <footer>— Ravi K., CTO</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="cta" id="contact" aria-label="Contact">
+      <div class="container cta-inner">
+        <div>
+          <h2>Let’s build something remarkable.</h2>
+          <p>Briefly describe your project: timeline, goals, and budget (optional).</p>
+        </div>
+
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <div class="field-row">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+          </div>
+          <textarea name="message" rows="4" placeholder="Tell us about your project" required></textarea>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <a class="btn btn-ghost" href="mailto:hello@argentum.example">Or email us</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year">2025</span> Argentum — Crafted with care</div>
+      <div class="social">
+        <a aria-label="Twitter" href="#" title="Twitter">🐦</a>
+        <a aria-label="LinkedIn" href="#" title="LinkedIn">🔗</a>
+        <a aria-label="Dribbble" href="#" title="Dribbble">🏀</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
