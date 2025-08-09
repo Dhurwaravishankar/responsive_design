@@ -52,7 +52,7 @@ or host it on GitHub Pages for live preview.
 
 ## 🚀 How to Run
 1. Clone or download the repository
-2. 
+2. [link] (gh repo clone Dhurwaravishankar/responsive_design)
 3. Test responsiveness using Chrome DevTools (Toggle Device Toolbar)
 
 ---
