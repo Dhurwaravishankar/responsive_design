@@ -29,7 +29,7 @@ This project was created as part of **Task-4**:
 
 ## 🖥 Live Demo
 You can open the
-[Go to Top Section](http://127.0.0.1:5500/index.html#top)
+[Go to Top Section](https://responsive-design-fccc.vercel.app/)
 
  file directly in your browser  
 or host it on GitHub Pages for live preview.
